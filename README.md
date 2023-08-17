@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## My portfolio : psharmisha.com
 
 My personal portfolio showcases my journey, skills, and projects. The technology stack I have used for my portfolio includes:
@@ -40,3 +41,10 @@ I implemented a robust CI/CD pipeline using GitHub Actions. This pipeline automa
 5. **Benefits of CI/CD:** The CI/CD pipeline ensures that updates to the website are automatically deployed, reducing manual intervention and enabling rapid iteration.
 
 By implementing this CI/CD pipeline, I maintain a seamless and efficient process for updating and deploying my personal portfolio, enabling me to focus more on creating content and showcasing my projects.
+=======
+# psharmisha.com 
+
+My portfolio 
+
+https://psharmisha.com
+>>>>>>> origin/main
