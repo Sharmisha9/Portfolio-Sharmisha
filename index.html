@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sharmisha Parvathaneni</title>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/media-selection.js"></script>
+	<script type="text/javascript" src="js/console.js"></script>
+	<script type="text/javascript" src="js/projects/projects.js"></script>
+	<script type="text/javascript" src="js/projects/projects-cards-updater.js"></script>
+	<script type="text/javascript" src="js/projects/languages-field.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/cards.css">
+	<link rel="stylesheet" type="text/css" href="styles/timeline.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/console.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="icon" href="assets/favicon.ico">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<nav id="mysidenav" class="sidenav">
+		<div id="mysidenavcontent" class="sidenavcontent">
+			<img src="assets/profile_picture_adjusted.png" alt="Profile picture" class="profile-picture" loading="lazy">
+			<p class="sidebarname"></p>
+			<hr>
+			<div class="media-container">
+				<div class="row">
+					<div class="column">
+						<a href="https://www.linkedin.com/in/sharmisha9/" target="_blank">
+							<img id="linkedin" src="assets/medias/linkedin.png" onMouseOver="selected(this)"
+								onMouseOut="unselected(this)" alt="Go to LinkedIn profile" class="mediaicon"
+								loading="lazy">
+						</a>
+					</div>
+					<div class="column">
+						<a href="https://github.com/Sharmisha9" target="_blank">
+							<img id="github" src="assets/medias/github.png" onMouseOver="selected(this)"
+								onMouseOut="unselected(this)" alt="Go to GitHub profile" class="mediaicon"
+								loading="lazy">
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<hr>
+			<div class="nav_btns">
+				<button id="btn_aboutme" onClick="navscroll(this)">ABOUT ME</button><br>
+				<button id="btn_myskills" onClick="navscroll(this)">SKILLS SUMMARY</button><br>
+				<button id="btn_work" onClick="navscroll(this)">WORK EXPERIENCE</button><br>
+				<button id="btn_education" onClick="navscroll(this)">EDUCATION</button><br>
+				<button id="btn_projects" onClick="navscroll(this)">PROJECTS</button><br>
+			</div>
+
+			<div class="nav_bottom_btns">
+				<div class="column_button">
+					<button onclick="location.href='mailto:sparva3@uic.edu'" id="btn_contactme">CONTACT ME</button>
+				</div>
+				<div class="column_button">
+					<div class="column_button">
+						<button onclick="window.open('attachments/CV.pdf', '_blank')" id="btn_viewresume">MY
+							RESUME</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		</div>
+	</nav>
+
+
+
+	<div id="mycontent" class="content">
+		<section id="about_me" class="scroll-element">
+			<div class="title">
+				<h1 class="firstname">
+					SHARMISHA
+				</h1>
+				<h1 class="lastname">
+					PARVATHANENI
+				</h1>
+			</div>
+			<div class="container">
+				<img id="console" class="console_img" src="assets/console.png" loading="lazy">
+				<div id="typedtext" class="typedtextclass"> </div>
+			</div>
+		</section>
+
+		<section id="my_skills" class="aftertw scroll-element">
+			<h1 class="titlehead">
+				SKILLS SUMMARY
+			</h1>
+			<div id="skills_grid_view" class="skill-cards">
+				<div id="Languages" class="card">
+					<h3 class="card_title">Languages & Frameworks</h3>
+					<img id="python_logo" alt="Android Platform" src="assets/cards/python.png" class="card_logo"
+						loading="lazy" />
+					<ul class="card_list">
+						<li>Python, JavaScript, Java, ReactJS, D3.js, Node.js, Django, PL/SQL, HTML, CSS, Bootstrap</li>
+
+					</ul>
+				</div>
+				<div id="cloud" class="card">
+					<h3 class="card_title">Cloud/Databases</h3>
+					<img id="cloud_logo" alt="cloud" src="assets/cards/cloud.jpeg" class="card_logo" loading="lazy" />
+					<ul class="card_list">
+						<li>MySQL, PostgreSQL, MongoDB, AWS</li>
+
+					</ul>
+				</div>
+				<div id="Librariers_tools" class="card">
+					<h3 class="card_title">Libraries & Tools</h3>
+					<img id="tools_logo" alt="tools" src="assets/cards/tools.png" class="card_logo" loading="lazy" />
+					<ul class="card_list">
+						<li> GIT, JIRA, NumPy, Pandas, Tableau, CI/CD, Selenium, Kubernetes</li>
+					</ul>
+				</div>
+				<div id="core_competencies" class="card">
+					<h3 class="card_title">Core Competencies</h3>
+					<img id="core_logo" alt="core" src="assets/cards/core.png" class="card_logo" loading="lazy" />
+					<ul class="card_list">
+						<li> Data Structures and Algorithms, Web Development, UI/UX Design, System Design, Database
+							Management, Data Analysis, Microsoft
+							Office
+							Suite, Leadership, Client services</li>
+
+					</ul>
+
+		</section>
+
+		<section id="work_experience" class="aftertw scroll-element">
+
+			<h1 class="titlehead">
+				WORK EXPERIENCE
+			</h1>
+			<div class="we_timeline">
+				<div class="we_container right">
+					<div class="we_date">Jan 2023 - Current</div>
+					<img class="icon" alt="UIC CE Logo" src="assets/timeline/UIC.png" loading="lazy" />
+					<div class="we_content">
+						<h2>Full Stack Developer</h2>
+						<h3>CME Department, UIC</h3>
+						<h3> Python, ReactJS, MySQL, GIT, Docker, MongoDB</h3>
+						<h2>
+							<br>
+							<li class="card_list">Designed the CRADLE tool in ReactJS to effectively visualize and
+								analyze phase diagrams and crystal planes.</li>
+
+							<li lass="card_list"> Restructured MySQL database and optimized indexes, resulting in
+								300%
+								faster uploads of new crystal structures(cif files) and
+								enhanced overall query efficiency.</li>
+						</h2>
+
+
+					</div>
+				</div>
+				<div class="we_container left">
+					<div class="we_date">Oct 2021 - Aug 2022</div>
+					<img class="icon" alt="TCS Company Logo" src="assets/timeline/tcs.png" loading="lazy" />
+					<div class="we_content">
+						<h2>Assitant System Engineer</h2>
+						<h3>Tata Consultancy Services</h3>
+						<h3>Python, ReactJS, MySQL, OAuth, GIT</h3>
+						<h2>
+							<br>
+
+							<li class="card_list">Developed user authentication (OAuth 2.0-based Single Sign-On (SSO)
+								system) and billing automation micro-services with
+								integration and unit test coverage around of 90%.</li>
+
+							<li lass="card_list"> Migrated databases and applications from legacy servers to private
+								cloud, leading to cost saving in infrastructure by 50%.</li>
+
+							<li class="card_list"> Optimized the performance of critical REST APIs by up to 45% through
+								strategic database schema redesign, query
+								optimization and efficient indexing techniques, resulting in faster response times and
+								more efficient system.</li>
+
+							<li lass="card_list"> Collaborated with developers and development lead to review and merge
+								30+ pull requests and architect new features.</li>
+
+						</h2>
+					</div>
+				</div>
+				<div class="we_container right">
+					<div class="we_date">Aug 2021 - Oct 2021</div>
+					<img class="icon" alt="TCS Company Logo" src="assets/timeline/tcs.png" loading="lazy" />
+					<div class="we_content">
+						<h2>Assistant System Engineer - Intern</h2>
+						<h3>Tata Consultancy Services</h3>
+
+						<h2>
+							<br>
+
+							<li class="card_list">Collaborated with the team to do reverse engineering, analyzing code
+								quality, fixing bugs and logical errors.</li>
+
+							<li lass="card_list"> Worked on non-functional requirements such as CI/CD, Resiliency and
+								Automation testing.</li>
+
+
+						</h2>
+					</div>
+
+		</section>
+
+
+
+		<section id="education" class="aftertw scroll-element">
+			<h1 class="titlehead">
+				EDUCATION
+			</h1>
+			<div class="we_timeline">
+				<div class="we_container left">
+					<div class="we_date_education">2022-2024</div>
+					<img class="icon" alt="UFBA Logo" src="assets/timeline/UIC.png" loading="lazy" />
+					<div class="we_content">
+						<h2>Master of Science in Computer Science</h2>
+						<h3>University of Illinois, Chicago (UIC), Chicago, IL</h3>
+					</div>
+				</div>
+				<div class="we_container right">
+					<div class="we_date_education">2017 - 2021</div>
+					<img class="icon" alt="GRIET Logo" src="assets/timeline/griet.png" loading="lazy" />
+					<div class="we_content">
+						<h2>Bachelor of Technology in Civil Engineering</h2>
+						<h3>Gokaraju Rangaraju Institute of Engineering and Technology, Hyderabad,India</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="aftertw scroll-element last-section">
+			<h1 class="titlehead">
+				PROJECTS
+			</h1>
+			<input type="radio" name="slider" id="left_slider">
+			<input type="radio" name="slider" id="center_slider" checked>
+			<input type="radio" name="slider" id="right_slider">
+			<div id="projects_view" class="projects-cards">
+				<label id="left_card" for="left_slider" class="left_card card clearfix">
+					<h1 class="card_title"></h1>
+					<img id="left_img" class="card_logo" loading="lazy" />
+					<p class="card_description"></p>
+					<button id="left_card_button" class="projectsbutton"></button>
+				</label>
+				<label id="center_card" for="center_slider" class="center_card card clearfix">
+					<h1 class="card_title"></h1>
+					<img id="center_img" class="card_logo" loading="lazy" />
+					<p class="card_description"></p>
+					<button id="center_card_button" class="projectsbutton"></button>
+				</label>
+				<label id="right_card" for="right_slider" class="right_card card clearfix">
+					<h1 class="card_title"></h1>
+					<img id="right_img" class="card_logo" loading="lazy" />
+					<p class="card_description"></p>
+					<button id="right_card_button" class="projectsbutton"></button>
+				</label>
+			</div>
+			<div id="projects_languages" class="projects-languages clearfix" loading="lazy"></div>
+		</section>
+	</div>
+</body>
+
+</html>
