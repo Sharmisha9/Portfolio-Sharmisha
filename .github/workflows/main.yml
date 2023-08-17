@@ -22,6 +22,7 @@ jobs:
 
       - name: Build and Deploy
         run: |
+          pwd
           # Sync specific files and folders to S3 bucket
           aws s3 sync . ${{ secrets.AWS_S3_BUCKET_NAME }} \
             --exclude "*" \
