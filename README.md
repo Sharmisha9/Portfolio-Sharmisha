@@ -1,5 +1,5 @@
-# sudoariel.github.io
+# psharmisha.com 
 
-My portfolio - GitHub sites
+My portfolio 
 
-https://sudoariel.github.io/
+https://psharmisha.com
