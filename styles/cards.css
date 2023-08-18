@@ -87,7 +87,7 @@
     margin-bottom: 0.3rem;
     font-family: "Kumbh Sans", sans-serif;
     color: var(--color1);
-    font-size: 50%;
+    font-size: 60%;
     line-height: 0.7rem;
   }
 
@@ -111,4 +111,8 @@
     vertical-align: middle;
     float: right;
   }
+}
+
+li.card_list {
+  font-family: "Kumbh Sans", sans-serif;
 }
