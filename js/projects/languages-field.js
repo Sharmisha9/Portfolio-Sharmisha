@@ -2,7 +2,7 @@ const badgeBaseURL = 'https://img.shields.io/badge/';
 const style = 'for-the-badge'
 // https://simpleicons.org/
 var logo = {
-    'Jupyter Notebook': ['Python', '306998', 'FFD43B'],
+    'TypeScript': ['javascript', 'f0db4f', '323330'],
     'Python': ['Python', '3776AB', 'FFE873'],
     'C': ['cloudera', '014177', 'ebebeb'],
     'C++': ['cplusplus', '00599C', 'FFE873'],
@@ -22,6 +22,7 @@ function clearLanguagesField() {
 }
 
 function buildURL(language) {
+    console.log({ language })
     logoName = logo[language][0];
     logoColor = logo[language][1];
     backgroundColor = logo[language][2];
