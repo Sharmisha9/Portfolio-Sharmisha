@@ -30,10 +30,10 @@ function navscroll(button) {
 }
 
 function showcontent() {
-	var elements = document.getElementsByClassName('aftertw');
-	for (i = 0; i < elements.length; i++) {
-		document.body.style.overflow = 'visible';
-		elements[i].style.visibility = 'visible';
-		elements[i].style.animation = 'fadein 2s';
-	}
+	// var elements = document.getElementsByClassName('aftertw');
+	// for (i = 0; i < elements.length; i++) {
+	// 	document.body.style.overflow = 'visible';
+	// 	elements[i].style.visibility = 'visible';
+	// 	elements[i].style.animation = 'fadein 2s';
+	// }
 }
