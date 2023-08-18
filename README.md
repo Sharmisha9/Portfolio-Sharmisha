@@ -16,7 +16,7 @@ My personal portfolio showcases my journey, skills, and projects. The technology
 ![Deployment](assets/projects/Deployment.jpg)
 
 ## Domain Registration using Route 53 and ACM
-For my personal portfolio website, I chose to use Amazon Route 53 for domain registration and DNS management. Amazon Route 53 provides a reliable and scalable domain name system (DNS) web service. This allowed me to manage my domain name (e.g., www.myportfolio.com) and route traffic to my website hosted on Amazon S3 and served via CloudFront.
+For my personal portfolio website, I chose to use Amazon Route 53 for domain registration and DNS management. Amazon Route 53 provides a reliable and scalable domain name system (DNS) web service. This allowed me to manage my domain name (www.psharmisha.com) and route traffic to my website hosted on Amazon S3 and served via CloudFront.
 
 I also utilized AWS Certificate Manager (ACM) to ensure secure communication between my website visitors and the server. ACM provided me with a free SSL/TLS certificate to enable HTTPS for my website, enhancing security and user trust.
 

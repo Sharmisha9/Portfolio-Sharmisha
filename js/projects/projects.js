@@ -24,7 +24,6 @@ async function filterRepos(reposJson, filterJson) {
             "name": filterRepoData.repo,
             "description": newRepos[i].description,
             "url": newRepos[i].html_url,
-            "languages": Object.keys(languages),
             "logo": filterRepoData.logo
 
         });
