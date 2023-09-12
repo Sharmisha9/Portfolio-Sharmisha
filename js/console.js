@@ -10,7 +10,7 @@ var aText = new Array(
 	"> Hello!",
 	"> My name is Sharmisha",
 	"> An enthusiastic graduate student pursuing Computer Science at UIC.",
-	"> I have 1.5 years of experience developing web applications.",
+	"> Passionate Software Engineer dedicated to contributing to impactful projects that make a difference.",
 	"> Actively Seeking co-op and full-time opportunities in Software Engineering.",
 	"> Spot me at GHC'23."
 );

@@ -1,3 +1,4 @@
+/* Define root colors */
 :root {
   --color1: #17252a;
   --color2: #0a4644;
@@ -6,25 +7,29 @@
   --color5: #feffff;
 }
 
+/* Apply scroll margin */
 .scroll-element {
   scroll-margin: 30px 0 0 30px;
 }
 
+/* Media query for smaller screens */
 @media only screen and (max-width: 800px) {
   .scroll-element {
     scroll-margin: 10px 0 0 10px;
   }
 }
 
+/* Add margin to sections */
 .aftertw {
-  /* visibility: hidden; */
   margin-top: 80px;
 }
 
+/* Define height for last section */
 .last-section {
   height: 400px;
 }
 
+/* Smooth scrolling and overflow settings */
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -41,14 +46,16 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
-  /* for Chrome, Safari, and Opera */
+  /* Hide scrollbar in Webkit browsers */
 }
 
+/* Adjust content layout */
 .content {
   margin-left: 320px;
   padding: 48px;
 }
 
+/* Styling for title */
 .title {
   padding: 10px;
   width: auto;
@@ -87,6 +94,7 @@ body::-webkit-scrollbar {
   vertical-align: middle;
 }
 
+/* Keyframes animation */
 @keyframes fadein {
   from {
     opacity: 0;
@@ -97,6 +105,7 @@ body::-webkit-scrollbar {
   }
 }
 
+/* Box-sizing for all elements */
 *,
 *::before,
 *::after {
