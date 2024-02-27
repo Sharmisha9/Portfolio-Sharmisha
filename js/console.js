@@ -9,10 +9,10 @@ var filled = false;
 var aText = new Array(
 	"> Hello!",
 	"> My name is Sharmisha",
-	"> An enthusiastic graduate student pursuing Computer Science at UIC.",
+	"> An enthusiastic graduate student pursuing Computer Science at UIC, set to graduate in May 2024",
 	"> Passionate Software Engineer dedicated to contributing to impactful projects that make a difference.",
 	"> Actively Seeking co-op and full-time opportunities in Software Engineering.",
-	"> Spot me at GHC'23."
+
 );
 var iSpeed = 10; // time delay of print out
 var iIndex = 0; // start printing array at this posision
