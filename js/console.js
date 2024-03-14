@@ -10,7 +10,6 @@ var aText = new Array(
 	"> Hello there!",
 	"> My name is Sharmisha",
 	"> An enthusiastic graduate student pursuing Computer Science at UIC, set to graduate in May 2024.",
-	"> Passionate Software Engineer dedicated to contributing to impactful projects that make a difference.",
 	"> Actively Seeking co-op and full-time opportunities in Software Engineering/ Data Science.",
 	"> I would love to connect and explore how I can add value to your team's meaningful endeavors."
 
