@@ -18,5 +18,10 @@
         "repo": "Plant-Disease-Detector",
         "title": "Plant-Disease-Detector",
         "logo": "assets/projects/seed.png"
+    },
+    {
+        "repo": "Tableau-Works",
+        "title": "Tableau-Works",
+        "logo": "assets/projects/Tableau.jpeg"
     }
 ]
