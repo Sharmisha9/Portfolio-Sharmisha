@@ -13,5 +13,10 @@
         "repo": "Ansible-project",
         "title": "Ansible-project",
         "logo": "assets/projects/Ansible.png"
+    },
+    {
+        "repo": "Plant-Disease-Detector",
+        "title": "Plant-Disease-Detector",
+        "logo": "assets/projects/seed.png"
     }
 ]
