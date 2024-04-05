@@ -23,5 +23,9 @@
         "repo": "Tableau-Works",
         "title": "Tableau-Works",
         "logo": "assets/projects/Tableau.jpeg"
+    },
+    {
+        "repo": "Terraform",
+        "title": "VPC creation with Terraform",
+        "logo": "assets/projects/Terraform.png"
     }
-]
